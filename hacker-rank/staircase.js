@@ -10,4 +10,3 @@ function staircase(n) {
         console.log(string) 
     }
 }
-console.log(staircase(5))
