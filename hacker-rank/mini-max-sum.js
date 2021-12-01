@@ -12,6 +12,6 @@ function miniMaxSum(arr) {
     }
     let maxSum = sum - resultMini
     let miniSum = sum - resultMax
-    console.log(miniSum + " " + maxSum)
+    return miniSum + " " + maxSum
 }
-console.log(miniMaxSum([1, 2, 3, 4, 5]))
+console.log(miniMaxSum([1, 2, 3, 4, 6]))
