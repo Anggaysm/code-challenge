@@ -1,3 +1,5 @@
 function shortcut(string) {
-  let result = "";
+  return string.replace(/[aiueo]/g, "");
 }
+
+console.log(shortcut("hello"));
